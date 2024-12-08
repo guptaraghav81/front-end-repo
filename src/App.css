@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    overflow-x: hidden;
+}
+.highlightedText {
+        background: -webkit-linear-gradient(360deg,rgb(12, 241, 165), rgb(4, 181, 212), white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.highlightedTextOrange {
+        background: -webkit-linear-gradient(rgb(241, 218, 12), rgb(212, 111, 4), white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.highlightedText2 {
+    background: -webkit-linear-gradient(rgb(12, 241, 165), rgb(4, 181, 212), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.videoBg {
+    box-shadow: inset 0px 33px 25px 0 #000, 
+            inset 0 66px 15px 0px #ccc,
+            inset 0 99px 5px 0px #fff;
+}
+.homepage_bg{
+    background: url("../src/assets/Images/bghome.svg");
+}
+.timeline{
+    
+}
